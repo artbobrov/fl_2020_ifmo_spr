@@ -9,7 +9,7 @@ Sequence ::= Statement | Statement Sequence
 Statement ::= If | While | Assign ';' | Read ';' | Write ';'
 If ::= 'if' Condition '{' Sequence '}' 'else' '{' Sequence '}'
 While ::= 'while' Condition '{' Sequence '}'
-Assign ::= 'let' Identifier '=' Expression
+Assign ::= Identifier '=' Expression
 Read ::= 'read' Identifier
 Write ::= 'write' Expression
 Expression ::= Identifier
